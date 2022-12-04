@@ -138,7 +138,7 @@ async function start() {
   gl.linkProgram(program);
   gl.useProgram(program);
 
-  image = await readImage("/sources/image.jpeg");
+  image = await readImage("../sources/image.jpeg");
 
   gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
 
